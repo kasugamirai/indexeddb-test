@@ -1,0 +1,12 @@
+[package]
+name = "indexeddb"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nostr-indexeddb = "0.30.0"
+tracing-wasm = "0.2"
+wasm-bindgen-futures = "0.4"
+web-sys = "0.3"
+yew = { version = "0.21", features = ["csr"] }
+tokio = { version = "1", features = ["full"] }
